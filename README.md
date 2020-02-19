@@ -17,7 +17,7 @@
 To install all of the template files, run the following script from the root of your project's directory:
 
 ```
-bash -c "$(curl -s https://raw.githubusercontent.com/ZacharyWills/owp-open-source-project-template/open_source_template.sh)"
+bash -c "$(curl -s https://raw.githubusercontent.com/NOAA-OWP/owp-open-source-project-template/open_source_template.sh)"
 ```
 
 ----
@@ -39,7 +39,7 @@ Other things to include:
 
 **Screenshot**: If the software has visual components, place a screenshot after the description; e.g.,
 
-![](https://raw.githubusercontent.com/ZacharyWills/owp-open-source-project-template/master/doc/Screenshot.png)
+![](https://raw.githubusercontent.com/NOAA-OWP/owp-open-source-project-template/master/doc/Screenshot.png)
 
 
 ## Dependencies
