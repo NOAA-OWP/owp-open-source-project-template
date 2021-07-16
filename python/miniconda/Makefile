@@ -7,6 +7,9 @@ PYTHON=$(PYENV)/bin/python3
 
 .PHONY: checksum clean
 
+build: $(PYENV)/bin/activate
+	$(PYTHON) -m build
+
 $(PYENV)/bin/activate: checksum requirements.txt
 	test -d $(PYENV) || bash ./$(INSTALLER) -b -p $(PYENV)
 	$(PYTHON) -m pip install -U pip wheel setuptools build pytest
@@ -23,4 +26,4 @@ $(HASHFILE):
 	echo "$(HASH) $(INSTALLER)" > $(HASHFILE)
 
 clean:
-	rm -rf $(PYENV) $(HASHFILE) $(INSTALLER)
+	rm -rf dist/ $(PYENV) $(HASHFILE) $(INSTALLER)
