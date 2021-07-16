@@ -1,0 +1,7 @@
+*__pycache__*
+*.py[cod]
+*$py.class
+miniconda3/*
+sha256sum.txt
+Miniconda3-py*
+*.pytest_cache*
