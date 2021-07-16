@@ -5,7 +5,7 @@ HASHFILE=sha256sum.txt
 PYENV=miniconda3
 PYTHON=$(PYENV)/bin/python3
 
-.PHONY: checksum clean
+.PHONY: build checksum clean
 
 build: $(PYENV)/bin/activate
 	$(PYTHON) -m build
