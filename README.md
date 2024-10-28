@@ -92,6 +92,10 @@ General instructions on _how_ to contribute should be stated with a link to [CON
 ----
 
 ## Open source licensing info
+
+These links must be included in the final version of your project README (keep this section,
+as is, but remove this sentence):
+
 1. [TERMS](TERMS.md)
 2. [LICENSE](LICENSE)
 
